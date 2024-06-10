@@ -76,6 +76,11 @@ body {
 
   font-size: 20px;
 }
+.navh2 {
+  font-family: "Maitree", serif;
+  font-style: oblique;
+  font-size: 35px;
+}
 .img-sec {
   background-image: url("homeimages/header11.jpg");
   height: 100vh;
@@ -256,5 +261,9 @@ footer {
   }
   .abt3colimg {
     display: none !important;
+  }
+  .header-herbal-h1,
+  .home-header-h1 {
+    font-size: 40px;
   }
 }

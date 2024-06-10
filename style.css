@@ -158,6 +158,62 @@ body {
   background-position: top;
   object-fit: contain;
 }
+/* License  */
+.l-cont {
+  background: rgba(192, 184, 184, 0.222);
+  border-radius: 40px;
+}
+.l-h2 {
+  font-family: "Maitree", serif;
+  font-size: 50px;
+  text-align: justify;
+  color: #517c45;
+  font-weight: bold;
+}
+.l-h3 {
+  font-family: "Maitree", serif;
+  font-size: 17px;
+  text-align: center;
+  color: #517c45;
+}
+/* Teams */
+.team-h3 {
+  font-family: "Maitree", serif;
+  font-size: 30px;
+  text-align: center;
+  color: #517c45;
+  font-weight: bold;
+}
+.team-p {
+  font-family: "Maitree", serif;
+  font-size: 14px;
+  text-align: center;
+  color: #517c45;
+}
+.team-col {
+  transition: 0.3s all;
+}
+.team-col:hover {
+  transform: translateY(-10%);
+}
+.bi-envelope {
+  font-family: "Maitree", serif;
+  font-size: 20px;
+  color: #517c45;
+}
+/* Footer */
+footer {
+  background-color: #47663e;
+}
+.footer-ul {
+  font-family: "Maitree", serif;
+  font-size: 15px;
+  color: white;
+}
+.adres {
+  color: black !important;
+}
+
 @media only screen and (max-width: 600px) {
   .whowerow {
     gap: 2rem;

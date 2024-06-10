@@ -281,7 +281,14 @@ footer {
   background-position: top;
   object-fit: contain;
 }
-
+/* 3rd tea */
+.herbs-img3 {
+  background-image: url("teaimages/ginger.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: contain;
+}
 @media only screen and (max-width: 600px) {
   .whowerow {
     gap: 2rem;
@@ -316,5 +323,11 @@ footer {
   }
   .firsttea-h1 {
     font-size: 30px;
+  }
+  .l-h2 {
+    font-size: 30px;
+  }
+  .l-h3 {
+    text-align: justify;
   }
 }

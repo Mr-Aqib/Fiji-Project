@@ -72,9 +72,14 @@ body {
 }
 
 .headerul li {
-  font-family: "Lato", sans-serif;
-
+  font-family: "Maitree", serif;
+  font-size: 25px;
   font-size: 20px;
+  transition: all 0.7s;
+}
+
+.headerul li:hover {
+  color: #586d52 !important;
 }
 .navh2 {
   font-family: "Maitree", serif;
@@ -240,6 +245,43 @@ footer {
   font-family: "Maitree", serif;
   font-style: oblique;
 }
+.sliderimg {
+  width: 100%;
+}
+.header-object-images-slider:hover {
+  transition: all 0.9s;
+}
+.header-object-images-slider:hover {
+  transform: translate3d(42px, -10px, -135px);
+}
+/* Tea Ranges */
+.firsttea-h1 {
+  font-family: "Maitree", serif;
+  font-style: oblique;
+  font-size: 50px;
+}
+.firsttea-p {
+  font-family: "Maitree", serif;
+  font-style: oblique;
+  font-size: 30px;
+}
+/* First Tea */
+.fijippl-div-herbs {
+  background-image: url("teaimages/Lemon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: contain;
+}
+/* 2ndtea */
+.herbs-img2 {
+  background-image: url("teaimages/herbs2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: contain;
+}
+
 @media only screen and (max-width: 600px) {
   .whowerow {
     gap: 2rem;
@@ -264,6 +306,15 @@ footer {
   }
   .header-herbal-h1,
   .home-header-h1 {
-    font-size: 40px;
+    font-size: 20px;
+  }
+  .firsttea-p {
+    font-size: 15px;
+  }
+  .first-tea-img {
+    width: 300px;
+  }
+  .firsttea-h1 {
+    font-size: 30px;
   }
 }

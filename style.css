@@ -105,7 +105,7 @@ body {
 .about-us {
   margin-top: 20px;
   background-image: url("homeimages/aboutus.jpg");
-  height: 100vh;
+  height: 200vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -141,6 +141,23 @@ body {
 .fijippl-div {
   top: 80%;
 }
+
+.abtp {
+  font-family: "Maitree", serif;
+  font-size: 25px;
+  text-align: justify;
+  color: white;
+}
+.abtcolp {
+  background-color: rgb(126, 133, 140, 0.7);
+}
+.abt3 {
+  background-image: url("homeimages/aboutus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: contain;
+}
 @media only screen and (max-width: 600px) {
   .whowerow {
     gap: 2rem;
@@ -153,5 +170,14 @@ body {
   }
   .about-us {
     margin-top: 390px;
+  }
+  .abtp {
+    font-size: 15px;
+  }
+  .imgcolabt2 {
+    width: 400px;
+  }
+  .abt3colimg {
+    display: none !important;
   }
 }

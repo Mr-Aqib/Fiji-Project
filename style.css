@@ -73,11 +73,17 @@ body {
 
 .headerul li {
   font-family: "Maitree", serif;
-  font-size: 25px;
-  font-size: 20px;
-  transition: all 0.7s;
+  font-size: 22px;
+  color: white;
+  font-style: oblique;
 }
-
+.nav-ietm {
+  transition: all 0.4s !important;
+}
+.nav-ietm:hover {
+  color: #1c1f1c !important;
+  transform: translate3d(10px, -10px, 10px);
+}
 .headerul li:hover {
   color: #586d52 !important;
 }
@@ -284,6 +290,20 @@ footer {
 /* 3rd tea */
 .herbs-img3 {
   background-image: url("teaimages/ginger.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: contain;
+}
+.mint-img {
+  background-image: url("teaimages/mint.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: contain;
+}
+.turm-img3 {
+  background-image: url("teaimages/turm.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

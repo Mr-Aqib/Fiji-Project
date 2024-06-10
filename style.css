@@ -309,6 +309,15 @@ footer {
   background-position: top;
   object-fit: contain;
 }
+/* Contact Us */
+.contact-ush1 {
+  font-family: "Maitree", serif;
+  font-style: oblique;
+  font-size: 35px;
+}
+.contact-con {
+  background-color: #aabea5;
+}
 @media only screen and (max-width: 600px) {
   .whowerow {
     gap: 2rem;
@@ -349,5 +358,14 @@ footer {
   }
   .l-h3 {
     text-align: justify;
+  }
+  .cont-conta {
+    margin-top: 80px;
+  }
+  .contact-con {
+    margin-bottom: 50px;
+  }
+  .cont-p {
+    font-size: 15px;
   }
 }

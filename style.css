@@ -216,6 +216,14 @@ body {
   font-size: 20px;
   color: #517c45;
 }
+.team-div {
+  background-image: url("homeimages/teamwalpaper.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: contain;
+}
 /* Footer */
 footer {
   background-color: #47663e;
@@ -278,6 +286,7 @@ footer {
   background-repeat: no-repeat;
   background-position: top;
   object-fit: contain;
+  border-radius: 50px !important;
 }
 /* 2ndtea */
 .herbs-img2 {
@@ -328,6 +337,49 @@ footer {
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
+}
+/*--------------------------------------------- Spice Imges ------------------------------------------- */
+.spice-img-sec {
+  background-image: url("spicesimages/spices.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: contain;
+  height: 100vh;
+}
+.main-img-holder {
+  background-image: url("spicesimages/spicebg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: contain;
+}
+.spice-img-divs {
+  padding: 20px;
+  background-color: rgb(208, 246, 246);
+}
+.spice-img-h1 {
+  font-family: "Maitree", serif;
+  font-style: oblique;
+  font-size: 30px;
+  text-shadow: 5px 4px 6px #47663e;
+  font-weight: bold;
+}
+.spice-img-p {
+  font-family: "Maitree", serif;
+  font-style: oblique;
+  text-align: center;
+}
+.spice-img-a {
+  color: black;
+  text-align: justify;
+  font-family: "Maitree", serif;
+  font-style: oblique;
+  text-align: center;
+  text-decoration: none;
+}
+.first-row {
+  background-color: rgb(5, 150, 150);
 }
 @media only screen and (max-width: 600px) {
   .whowerow {

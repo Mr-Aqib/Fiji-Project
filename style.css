@@ -381,7 +381,20 @@ footer {
 .first-row {
   background-color: rgb(5, 150, 150);
 }
+/* -----------------Magical Taste---------- */
+.mag-h1 {
+  font-family: "Maitree", serif;
+  font-style: oblique;
+  text-align: center;
+  color: #47663e;
+  font-weight: bold;
+  text-shadow: 10px 8px 10px #5ca248;
+  font-size: 60px;
+}
 @media only screen and (max-width: 600px) {
+  .mag-h1 {
+    font-size: 40px;
+  }
   .whowerow {
     gap: 1rem;
   }

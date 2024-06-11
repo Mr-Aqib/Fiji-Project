@@ -1,10 +1,11 @@
 body {
-  background: rgb(137, 158, 136);
+  background: rgb(114, 174, 111);
   background: linear-gradient(
     90deg,
-    rgb(115, 152, 113) 0%,
-    rgb(129, 163, 136) 44%,
-    rgb(129, 173, 132) 100%
+    rgb(11, 91, 7) 0%,
+
+    rgb(129, 173, 132) 100%,
+    rgb(4, 255, 54) 44%
   );
 }
 .lato-thin {
@@ -67,7 +68,7 @@ body {
   font-style: italic;
 }
 .header {
-  background-color: rgba(116, 144, 122, 0.9);
+  background-color: rgba(25, 116, 53);
   width: 100%;
 }
 
@@ -114,9 +115,7 @@ body {
   font-size: 20px;
   font-style: italic;
 }
-.img-sec-div {
-  background-color: rgba(116, 144, 122, 0.6);
-}
+
 .about-us {
   margin-top: 20px;
   background-image: url("homeimages/aboutus.jpg");
@@ -128,10 +127,11 @@ body {
   margin-top: 220px;
 }
 .abth1 {
-  font-family: "Lato", sans-serif;
+  font-family: "Maitree", serif;
+  font-style: oblique;
   font-size: 50px;
-  color: white;
-  background-color: rgba(116, 144, 122, 0.8);
+  color: black;
+  text-shadow: 2px 2px #ffffff;
 }
 /* Who we are */
 .whoh5 {
@@ -244,9 +244,7 @@ footer {
   font-size: 70px;
   font-style: oblique;
 }
-.img-sec-div-herbal {
-  background-color: rgba(136, 153, 140, 0.6);
-}
+
 .header-h1 {
   font-family: "Maitree", serif;
   font-style: oblique;
@@ -265,11 +263,13 @@ footer {
   font-family: "Maitree", serif;
   font-style: oblique;
   font-size: 50px;
+  text-shadow: 10px 20px 5px #47663e;
+  color: white !important;
 }
 .firsttea-p {
   font-family: "Maitree", serif;
   font-style: oblique;
-  font-size: 30px;
+  font-size: 23px;
 }
 /* First Tea */
 .fijippl-div-herbs {
@@ -318,9 +318,20 @@ footer {
 .contact-con {
   background-color: #aabea5;
 }
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
 @media only screen and (max-width: 600px) {
   .whowerow {
-    gap: 2rem;
+    gap: 1rem;
   }
   .fijippl-div {
     top: 80%;
@@ -329,7 +340,7 @@ footer {
     font-size: 25px;
   }
   .about-us {
-    margin-top: 390px;
+    margin-top: 220px;
   }
   .abtp {
     font-size: 15px;
@@ -337,9 +348,7 @@ footer {
   .imgcolabt2 {
     width: 400px;
   }
-  .abt3colimg {
-    display: none !important;
-  }
+
   .header-herbal-h1,
   .home-header-h1 {
     font-size: 20px;
@@ -367,5 +376,27 @@ footer {
   }
   .cont-p {
     font-size: 15px;
+  }
+  .headder-img {
+    width: 150px !important;
+  }
+  .img-sec-div-herbal {
+    margin-top: 150px;
+  }
+  .img-sec-div-herbal2 {
+    margin-top: 150px;
+  }
+  .wwr-img {
+    width: 200px;
+  }
+  .about-us img {
+    width: 300px;
+  }
+  .about-us {
+    height: 170vh;
+  }
+  .fijippl-div-herbs {
+    right: -10% !important;
+    border-radius: 10px;
   }
 }
